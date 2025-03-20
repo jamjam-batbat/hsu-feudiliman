@@ -39,6 +39,7 @@ nav {
         color: #018249;
     }
 }
-#intro:content {
-    padding: 15%;
+#intro {
+    margin-bottom: 0;
+    h1 {padding: 5%;}
 }
