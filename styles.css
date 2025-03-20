@@ -10,7 +10,10 @@ nav {
     .navbar-brand {
         width: 15%;
         transition: .25s !important;
-        img {width: 100%;}
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
     }
     .navbar-brand:hover, .navbar-brand:active {
         img {filter: drop-shadow(0 0 5px 10px) !important;}
