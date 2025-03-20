@@ -22,7 +22,7 @@ nav {
         img {filter: drop-shadow(0 0 5px 10px) !important;}
     }
     .btn-nav {
-        margin: 1% 2%;
+        margin: .5% 2%;
         padding: .1%;
         width: 5%;
         background-color: #018249;
