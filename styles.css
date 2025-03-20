@@ -40,5 +40,5 @@ nav {
     }
 }
 #intro {
-    height: 15%;
+    height: 15% !important;
 }
