@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face { 
+    font-family: 'DellaRobbia BT Bold'; 
+    src: 
+        url('DellaRobbia\ BT\ Bold.ttf')  
+        format('truetype');
+}
 body {
     font-family: "Raleway",sans-serif;
 }
@@ -44,13 +50,17 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;   
-    box-shadow: inset 0 0 0 100vh rgba(255,255,255,.6);
+    box-shadow: inset 0 0 0 100vh rgba(255,255,255,.75);
     margin-bottom: 0;
     h1 {
-        padding: 2.5% 2.5% 5%;
+        font-family: 'DellaRobbia BT Bold','Times New Roman', Times, serif;
+        font-weight: 400 !important;
+        padding: 2.5%;
+        padding-top: 1.25%;
         font-weight: bold;
         color: #007a33;
     }
+    h4 {padding-bottom: 2.5%;}
 }
 
 @media screen and (max-width: 960px) {
